@@ -1,0 +1,18 @@
+﻿生成启动时间为 16/3/14 下午3:10:11。
+     1>项目“C:\cdvs\cdvs\cdvs\cdvs.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt example.cpp
+         example.cpp
+     1>example.cpp(173): warning C4244: “初始化”: 从“double”转换到“long”，可能丢失数据
+     1>example.cpp(205): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>example.cpp(375): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cdvs\cdvs\x64\Release\cdvs.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\cdvs\cdvs\cdvs\x64\Release EV2641CDVSLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_world310.lib opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\cdvs\cdvs\x64\Release\cdvs.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cdvs\cdvs\x64\Release\cdvs.lib" /MACHINE:X64 x64\Release\example.obj
+         正在生成代码
+         已完成代码的生成
+         cdvs.vcxproj -> C:\cdvs\cdvs\x64\Release\cdvs.exe
+     1>已完成生成项目“C:\cdvs\cdvs\cdvs\cdvs.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.42
